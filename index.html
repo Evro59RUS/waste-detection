@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ПРОГНОЗ БРАКА</title>
+        <link rel="stylesheet" href="style.css" >
+        <script type="text/javascript" src="code.js"></script>
+    </head>
+    <body>
+
+            <div class="header">
+                <h1> Введите данные лопатки </h1>
+            </div> 
+            <div class="main-interface">  
+
+                <label><b>День недели при прессовании</b></label>
+                <input type="text" value="5" id="x1" required>
+                
+                <label ><b>Температура, °С</b></label>
+                <input type="text" value="22.5" id="x2" required>
+
+                <label><b>Влажность на участке, %</b></label>
+                <input type="text" value="37" id="x3" required>
+                
+                <label><b>Температура массы перед пресоваием, °С</b></label>
+                <input type="text" value="69" id="x4" required>
+
+                <label><b>Температура пресс-формы перед пресоваием (спинка), °С</b></label>
+                <input type="text" value="23" id="x5" required>
+
+                <label><b>Температура пресс-формы перед пресоваием (корыто), °С</b></label>
+                <input type="text" value="23.3" id="x6" required>
+
+                <label><b>Температура стакана перед пресоваием, °С</b></label>
+                <input type="text" value="23" id="x7" required>
+
+                <label><b>Время переноса кружки с массой от плитки до начала заливки в стакан, сек</b></label>
+                <input type="text" value="9.13" id="x8" required>
+
+                <label><b>Время выливания массы в прес. Стакан, сек</b></label>
+                <input type="text" value="1.11" id="x9" required>
+
+                <label><b>время нахождения массы в стакане, сек</b></label>
+                <input type="text" value="3.4" id="x10" required>
+
+                <label><b>Время набора давления, сек</b></label>
+                <input type="text" value="1.5" id="x11" required>
+
+                <label><b>Давление прессования, бар</b></label>
+                <input type="text" value="60" id="x12" required>
+                
+                <label><b>Время прессования, сек</b></label>
+                <input type="text" value="2" id="x13" required>
+
+                <label><b>Время массы под давлением, сек</b></label>
+                <input type="text" value="24" id="x14" required>
+
+                <label><b>Время выдержки стержня в пресс-форме без давления, сек</b></label>
+                <input type="text" value="11.79" id="x15" required>
+
+                <button type="button" class="start" onclick="DoWork()"> START </button>
+                <input type="text" value=" demo" id="demo" name="answer" class="answer"> 
+                <input type="text" value=" sensitive" id="sensitive" name="answer" class="answer"> 
+                <input type="text" value=" stable" id="stable" name="answer" class="answer"> 
+                <label><b>1 колонка демократический способ, 2 чусчтвительный, 3 устойчивый</b></label>
+                <label><b>внизу результат каждой из 5 моделей, трактование результатов: 0 - брак, 1 годное изделие</b></label>
+                <input type="text" value="прогноз 1 сети" id="answer1" name="answer" class="answer"> 
+                <input type="text" value="прогноз 2 сети" id="answer2" name="answer" class="answer"> 
+                <input type="text" value="прогноз 3 сети" id="answer3" name="answer" class="answer"> 
+                <input type="text" value="прогноз 4 сети" id="answer4" name="answer" class="answer"> 
+                <input type="text" value="прогноз 5 сети" id="answer5" name="answer" class="answer"> 
+            </div>                   
+
+
+    </body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+	background-color: #E6E6FA;
+}
+
+.main-interface {
+	margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    width: 800px;
+    grid-template-columns: auto;
+    grid-template-areas:
+            "header header "
+            "left-menu main-game";
+}
+
+.header {
+    grid-area: header;
+    background-color: DimGray;
+    text-align: center;
+
+    border-width: 0 0 4px 0;
+    width: 100%;
+
+}
+
+.answer{
+    margin-top: 60px;
+}
+
+.start {
+	cursor: pointer;
+    margin-top: 60px;
+}
+
